@@ -1,0 +1,95 @@
+body{
+font-family: Arial;
+margin:0;
+background:#121212;
+color:white;
+}
+
+header{
+padding:20px;
+}
+
+.categories{
+display:flex;
+gap:10px;
+overflow-x:auto;
+margin-top:10px;
+}
+
+.categories button{
+background:#2a2a2a;
+border:none;
+color:white;
+padding:8px 14px;
+border-radius:20px;
+}
+
+.categories .active{
+background:#ff3b3b;
+}
+
+main{
+padding:20px;
+display:flex;
+flex-direction:column;
+gap:15px;
+}
+
+.coupon{
+background:#1f1f1f;
+padding:15px;
+border-radius:10px;
+}
+
+.coupon button{
+background:#ff3b3b;
+border:none;
+padding:10px;
+border-radius:6px;
+color:white;
+margin-top:10px;
+}
+
+.bottom-menu{
+position:fixed;
+bottom:0;
+width:100%;
+background:#000;
+display:flex;
+justify-content:space-around;
+padding:12px 0;
+}
+
+.bottom-menu button{
+background:none;
+border:none;
+color:white;
+font-size:20px;
+}
+
+.login-container{
+display:flex;
+flex-direction:column;
+gap:15px;
+padding:30px;
+}
+
+.login-container input{
+padding:12px;
+border:none;
+border-radius:8px;
+background:#2a2a2a;
+color:white;
+}
+
+.login-container button{
+padding:12px;
+border:none;
+border-radius:8px;
+background:#ff3b3b;
+color:white;
+}
+
+.login-btn{
+background:#444;
+}
