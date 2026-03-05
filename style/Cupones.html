@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Subir Cupones</title>
+    <link rel="stylesheet" href="styles/Style-cupon.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Subir Cupones</h1>
+        <form class="form-login" id="couponForm">
+            <input type="text" placeholder="Ingrese el código del cupón" id="codigo" required>
+            <input type="number" placeholder="Ingrese la cantidad del cupón" id="cantidad" min="1" step="1" required>
+            <input type="text" placeholder="Ingrese la descripción del cupón" id="descripcion" required>
+            <input type="number" placeholder="Ingrese el descuento del cupón (%)" id="descuento" required>
+            <div style="display: flex; align-items: center; gap: 10px;">
+                <label for="vencimiento" style="color: white;">Fecha de vencimiento:</label>
+                <input type="date" id="vencimiento" required>
+            </div>
+            <button type="submit">Subir Cupón</button>
+        </form>
+    </div>
+    <script src="app.js"></script>
+</body>
+</html>
