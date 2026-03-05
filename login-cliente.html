@@ -1,31 +1,38 @@
 <!DOCTYPE html>
 <html lang="es">
 <head>
+
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Login</title>
+<title>Login Cliente</title>
+
 <link rel="stylesheet" href="styles.css">
+
 </head>
 
 <body>
 
 <div class="container">
 
-<h2>Bienvenido</h2>
-<p>Selecciona cómo deseas iniciar sesión</p>
+<h2>Iniciar sesión como Cliente</h2>
 
-<div class="login-options">
+<form class="form-login">
 
-<button onclick="clienteLogin()">Soy Cliente</button>
+<input type="email" placeholder="Correo electrónico" required>
 
-<button onclick="negocioLogin()">Soy Negocio</button>
+<input type="password" placeholder="Contraseña" required>
+
+<button type="submit">Iniciar sesión</button>
+
+<p>¿No tienes cuenta?</p>
+
+<button type="button">Registrarme</button>
+
+</form>
 
 </div>
 
-</div>
 
-
-<!-- MENU INFERIOR -->
 <div class="menu-inferior">
 
 <a href="index.html">🏠</a>
@@ -37,8 +44,6 @@
 <a href="login.html">👤</a>
 
 </div>
-
-<script src="app.js"></script>
 
 </body>
 </html>
