@@ -4,7 +4,7 @@
 
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Iniciar sesión</title>
+<title>Registrarse</title>
 
 <link rel="stylesheet" href="styles.css">
 
@@ -14,21 +14,15 @@
 
 <div class="container">
 
-<h2>Iniciar sesión</h2>
+<h2>¿Cómo quieres registrarte?</h2>
 
-<form class="form-login">
+<div class="login-options">
 
-<input type="email" placeholder="Correo electrónico" required>
+<button onclick="clienteRegistro()">Soy Cliente</button>
 
-<input type="password" placeholder="Contraseña" required>
+<button onclick="negocioRegistro()">Soy Negocio</button>
 
-<button type="submit">Entrar</button>
-
-</form>
-
-<p>¿No tienes cuenta?</p>
-
-<button onclick="irRegistro()">Registrarse</button>
+</div>
 
 </div>
 
