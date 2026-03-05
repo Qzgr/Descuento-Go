@@ -2,6 +2,8 @@ function irLogin(){
 
 window.location.href = "login.html"
 
+
+
 }
 
 function irInicio(){
